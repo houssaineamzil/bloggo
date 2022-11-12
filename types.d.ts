@@ -25,4 +25,3 @@ export interface Article {
 }
 
 export type Articles = Article[];
-
