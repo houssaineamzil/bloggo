@@ -1,0 +1,20 @@
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Global
+// @import "abstracts/variables";
+@import "base/global";
+@import "base/reset";
+@import "base/typography";
+
+// Pages Specific
+@import "pages/articleSingle";
+
+// Components Specific
+@import "components/footer";
+@import "components/header";
+@import "components/hero";
+@import "components/homePosts";
+@import "components/postCard";
